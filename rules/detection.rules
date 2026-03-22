@@ -1,4 +1,4 @@
-RULE 1: IF failed_login > 3 THEN alert brute_force
-RULE 2: IF unauthorized_sudo THEN alert privilege_escalation
-RULE 3: IF cpu_usage > 90% THEN alert resource_abuse
-RULE 4: IF memory_error THEN alert system_instability
+RULE 1: Multiple failed logins (>3) → Brute Force (HIGH)
+RULE 2: Failed logins + successful login → Account Compromise (CRITICAL)
+RULE 3: CPU usage > 90% → Resource Abuse (MEDIUM)
+RULE 4: Out of memory → System Instability (HIGH)
