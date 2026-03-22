@@ -1,13 +1,22 @@
 # 📊 SIEM Metrics
 
-## Events Detected
+## Alerts Summary
 
-- Brute force attempts: 3
-- Suspicious logins: 1
-- CPU anomalies: 1
-- Memory issues: 1
+| Type | Count |
+|------|------|
+| Brute Force | 1 |
+| Account Compromise | 1 |
+| CPU Alerts | 1 |
+| Memory Alerts | 1 |
 
 ## Security Insights
 
-- Potential attack detected from 192.168.1.10
-- System instability observed during attack window
+- Attack originated from 192.168.1.10
+- Brute force activity followed by successful login
+- System resource anomalies detected during attack window
+
+## Severity Distribution
+
+- Critical: 1
+- High: 2
+- Medium: 1
