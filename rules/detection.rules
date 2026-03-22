@@ -1,0 +1,4 @@
+RULE 1: IF failed_login > 3 THEN alert brute_force
+RULE 2: IF unauthorized_sudo THEN alert privilege_escalation
+RULE 3: IF cpu_usage > 90% THEN alert resource_abuse
+RULE 4: IF memory_error THEN alert system_instability
