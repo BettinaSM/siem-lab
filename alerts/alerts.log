@@ -1,0 +1,4 @@
+ALERT [HIGH]: Brute force attack detected from 192.168.1.10
+ALERT [CRITICAL]: Possible account compromise after brute force
+ALERT [MEDIUM]: High CPU usage detected
+ALERT [HIGH]: System memory issue detected
