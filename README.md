@@ -48,6 +48,26 @@ This lab demonstrates how SIEM platforms:
 
 ---
 
+## 🔗 Correlation Engine
+
+This lab simulates SIEM correlation by combining:
+
+- Authentication logs
+- System logs
+- Detection rules
+
+Example:
+Failed logins + successful login = Account compromise alert
+
+## 🧠 Threat Intelligence
+
+Based on MITRE ATT&CK:
+
+- T1110 (Brute Force)
+- T1078 (Valid Accounts)
+
+---
+
 ## 💡 Key Takeaway
 
 SIEM systems are essential for centralized monitoring and real-time threat detection in modern infrastructure.
