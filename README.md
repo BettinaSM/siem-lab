@@ -1,12 +1,12 @@
 # 🔐 SIEM Lab
 
-## 🔍 Overview
+##  Overview
 
 This project simulates a basic SIEM (Security Information and Event Management) system using log analysis and detection rules.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Simulate centralized log monitoring  
 - Apply detection rules to identify threats  
@@ -14,7 +14,7 @@ This project simulates a basic SIEM (Security Information and Event Management) 
 
 ---
 
-## 🧠 Features
+##  Features
 
 - Log ingestion (auth + system logs)  
 - Detection rules engine  
@@ -23,7 +23,7 @@ This project simulates a basic SIEM (Security Information and Event Management) 
 
 ---
 
-## 🚨 Detected Scenarios
+##  Detected Scenarios
 
 - Brute force attack  
 - Suspicious login  
@@ -32,13 +32,13 @@ This project simulates a basic SIEM (Security Information and Event Management) 
 
 ---
 
-## 📊 Dashboard
+##  Dashboard
 
 Simulated metrics provide visibility into detected events and system behavior.
 
 ---
 
-## 🔐 Security Perspective
+##  Security Perspective
 
 This lab demonstrates how SIEM platforms:
 
@@ -48,7 +48,7 @@ This lab demonstrates how SIEM platforms:
 
 ---
 
-## 🔗 Correlation Engine
+##  Correlation Engine
 
 This lab simulates SIEM correlation by combining:
 
@@ -59,7 +59,7 @@ This lab simulates SIEM correlation by combining:
 Example:
 Failed logins + successful login = Account compromise alert
 
-## 🧠 Threat Intelligence
+##  Threat Intelligence
 
 Based on MITRE ATT&CK:
 
@@ -68,6 +68,6 @@ Based on MITRE ATT&CK:
 
 ---
 
-## 💡 Key Takeaway
+##  Key Takeaway
 
 SIEM systems are essential for centralized monitoring and real-time threat detection in modern infrastructure.
